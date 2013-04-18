@@ -3,28 +3,42 @@
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/reset";
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/type";
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/scaffolding";
+@import "../vendor/jlong/sass-twitter-bootstrap/lib/buttons";
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/grid";
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/layouts";
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/navs";
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/navbar";
+
+@import "../vendor/jlong/sass-twitter-bootstrap/lib/responsive-utilities";
+@import "../vendor/jlong/sass-twitter-bootstrap/lib/responsive-768px-979px";
+@import "../vendor/jlong/sass-twitter-bootstrap/lib/responsive-767px-max";
 @import "../vendor/jlong/sass-twitter-bootstrap/lib/responsive-navbar";
-@import "../vendor/jlong/sass-twitter-bootstrap/lib/buttons";
 
 body > .container {
     margin-top: 40px;
     border-bottom: 1px solid #ccc;
 }
 
-.photo {
-    float: left;
-    width: 400px;
+.site-list {
+    padding-top: 20px;
+
+    .btn {
+        display: block;
+        width: 400px;
+        margin-bottom: 10px;
+    }
 }
 
-.site-list .btn {
-    display: block;
-    width: 400px;
-    margin-left: 400px;
-    margin-bottom: 10px;
+@media (max-width: 767px) {
+
+    body > .container {
+        margin-top: 20px;
+    }
+
+    .site-list .btn {
+        width: auto;
+    }
+
 }
 
 h1 {
