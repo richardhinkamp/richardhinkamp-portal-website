@@ -1,0 +1,9 @@
+$webroot: "/";
+
+$iconSpritePath:          "/img/bootstrap/glyphicons-halflings.png";
+$iconWhiteSpritePath:     "/img/bootstrap/glyphicons-halflings-white.png";
+
+@import "../vendor/jlong/sass-twitter-bootstrap/lib/variables";
+
+$baseFontFamily:        $serifFontFamily;
+$altFontFamily:         $sansFontFamily;

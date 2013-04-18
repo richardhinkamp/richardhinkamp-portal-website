@@ -1,0 +1,18 @@
+{
+    "name": "richardhinkamp/richardhinkamp-portal-website",
+    "description": "Portal website for my personal sub sites",
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jlong/sass-twitter-bootstrap"
+        }
+    ],
+
+    "require": {
+        "jlong/sass-twitter-bootstrap": "2.3.*"
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "stable"
+}
